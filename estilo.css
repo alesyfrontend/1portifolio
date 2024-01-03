@@ -1,0 +1,217 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto&display=swap");
+
+
+
+:root{
+    --color-fundo:black;
+    --color-destaque:blue;
+    --color-preto:white;
+    --color-cinza-neutro:#888889;
+    --color-branco-neutro:rgba(255, 255, 255, 0.7);
+}
+
+body {
+    background-color:var(--color-fundo);
+    color:var(--color-preto);
+    font-family:roboto;
+    margin:0;
+
+ }
+
+a {
+    text-decoration: none;
+    color:var(--color-preto);
+}
+
+.caixa-topo {
+    display: flex;
+    min-height: 100vh;
+ 
+   
+   
+}
+
+
+
+.caixa-topo .lateral {
+    background-color: var(--color-destaque);
+    flex-direction:column ;
+     gap:86px;
+    padding:12px;
+    display: flex;
+    
+}
+
+.inicio {
+    background-image:url("alesy.jpeg")  ;
+    background-repeat: no-repeat;
+    background-position:right bottom ;
+    background-size: auto;
+
+    border-bottom-color: var(--color-destaque);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+
+    min-height: 92vh;
+    width: 100%;
+}
+
+.topo {
+    display:flex;
+    gap: 230px;
+    align-items:center ;
+
+}
+.menu{
+    cursor:pointer;
+    margin-right:5%;
+    margin-left:5%;
+    gap:120px;
+}  
+
+
+.topo .menu {
+    display:flex;
+    font-size:18px; 
+    align-items:center;
+    padding:5px;
+    
+    
+}
+
+
+.topo .menu, a {
+    color:var (--color-preto);
+}
+
+.topo .menu, a:hover {
+    color:var (--color-cinza-neutro);
+}
+
+
+.chamada {
+    display:flex;
+    flex-direction: column;
+     margin-top: 138px;
+    margin-left: 168px;
+    gap: 33px;
+    max-width: 723px;
+    color:var (--color-preto)
+}
+
+.chamada h1 {
+color: var(--color-preto);
+font-family: Roboto;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+max-width: 700px;
+
+}
+
+h1 {
+/*fazendo a borda do lado esquerdo*/
+border-left-width: 4px;
+border-left-style:solid;
+border-left-color:var(--color-destaque);
+margin-left: 23px;
+padding-left: 23px;
+}
+
+.chamada h2 {
+    color: var(--color-preto);
+    max-width: 430px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 35;
+    line-height: normal;
+}
+.chamada a {
+    background-color: var(--color-destaque);
+    padding: 10px 44px;
+    border-radius:99px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 600;
+    width: 226px; 
+}
+
+
+.chamada h2 {
+    color: var(--color-preto);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+.trabalhar-juntos {
+    color:  var(--color-preto);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    bottom:1px;
+    left:45%;
+}
+.trabalhar-juntos .destaque {
+    color:var(--color-destaque);
+}
+
+.dobra-2 h2 {
+    font-size: 40px;
+    font-family: lato;
+
+}
+
+.dobra-2 {
+    text-align: center;
+}
+
+.caixa-projetos {
+    display: flex;
+    flex-direction: row;
+   gap: 12px;
+    margin: auto;
+}
+
+.projetos {
+       
+    max-width: 393px;
+   border-width: 1px;
+   border-color: var(--color-preto);
+   border-style: solid;
+   flex-direction: column;
+   margin: auto;
+ 
+ }
+
+
+.projetos .caixa-info {
+padding: 10px;
+
+}
+
+.contato {
+color:white;
+text-decoration: none;
+
+background-color: var(--color-destaque);
+padding: 16px 16px;
+width: 240px;
+font-size: 23px;
+border-radius: 30px;
+margin:auto;
+text-align: center;
+
+}
+
