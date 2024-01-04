@@ -8,8 +8,9 @@
 :root{
     --color-fundo:black;
     --color-destaque:blue;
+    --color-destaque2:rgb(225, 225, 245); 
     --color-preto:white;
-    --color-cinza-neutro:#888889;
+    --color-cinza-neutro:#7878cf;
     --color-branco-neutro:rgba(255, 255, 255, 0.7);
 }
 
@@ -46,7 +47,7 @@ a {
 }
 
 .inicio {
-    background-image:url("alesy.jpeg")  ;
+    background-image:url("./img/alesy.jpeg")  ;
     background-repeat: no-repeat;
     background-position:right bottom ;
     background-size: auto;
@@ -87,7 +88,7 @@ a {
     color:var (--color-preto);
 }
 
-.topo .menu, a:hover {
+.topo .menu a:hover {
     color:var (--color-cinza-neutro);
 }
 
@@ -161,10 +162,10 @@ padding-left: 23px;
     text-align: center;
     position: absolute;
     bottom:1px;
-    left:45%;
+    left:35%;
 }
 .trabalhar-juntos .destaque {
-    color:var(--color-destaque);
+    color:var(--color-destaque2);
 }
 
 .dobra-2 h2 {
